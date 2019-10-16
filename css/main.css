@@ -118,15 +118,8 @@ body {
   width: 100%;
 }
 
-.wrapper-two {
-  display:flex;
-  justify-content: center;
-  margin: 0;
-  height: 100%;
-  width: 100%;
-}
 
-#content {
+#content, #content-two, #content-three {
   /* set the display to flex and use the justify-content & align-items properties to center the text within the div*/
   display:flex;
   justify-content: center;
@@ -140,28 +133,14 @@ body {
   line-height: 1.5em;
   border-radius: 10px;
   padding: 0px 30px;
-  width: 33.333%;
+  margin: 0 10px;
+  width: 33.3%;
   height: 300px;
 }
 
-#content-two {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  background: #222;
-  background:rgba(0,0,0,0.7);
-  color: #fff;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
-  font-size: 1.2em;
-  line-height: 1.5em;
-  border-radius: 10px;
-  padding: 0px 30px;
-  width: 33.333%;
-  height: 100px;
-}
 
-#content p span {
+
+#content p span, #content-two span, #content-three p span {
   color:#FFB032;
 }
 
